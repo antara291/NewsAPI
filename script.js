@@ -57,11 +57,12 @@ searchButton.addEventListener('click', () => {
 
 
     console.log('API URL:', apiUrl);
+    console.log(subjectInput);
+    console.log(startDateInput);
+    console.log(endDateInput);
     
 });
 
 
-    console.log(subjectInput);
-    console.log(startDateInput);
-    console.log(endDateInput);
+    
 
