@@ -20,6 +20,13 @@ searchButton.addEventListener('click', () => {
     const startDate = startDateInput.value;
     const endDate = endDateInput.value;
 
+
+    console.log(subject;
+    console.log(startDate);
+    console.log(endDate);
+
+
+
     // Validate inputs
     if (!subject || !startDate || !endDate) {
         resultsDiv.innerHTML = '<p style="color: red;">Please fill in all fields.</p>';
@@ -63,8 +70,5 @@ searchButton.addEventListener('click', () => {
 });
 
 
-console.log(subjectInput.value);
-console.log(startDateInput.value);
-console.log(endDateInput.value);
 
 
