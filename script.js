@@ -2,7 +2,7 @@
 
 console.log(6);
 
-
+/*
 
 // Select the form and input elements
 const subjectInput = document.getElementById('subject');
@@ -66,4 +66,6 @@ searchButton.addEventListener('click', () => {
 console.log(subjectInput.value);
 console.log(startDateInput.value);
 console.log(endDateInput.value);
+
+*/
 
