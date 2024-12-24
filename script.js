@@ -21,7 +21,7 @@ searchButton.addEventListener('click', () => {
     const endDate = endDateInput.value;
 
 
-    console.log(subject;
+    console.log(subject);
     console.log(startDate);
     console.log(endDate);
 
