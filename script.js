@@ -1,6 +1,6 @@
 
 
-console.log(5);
+console.log(66);
 
 
 
@@ -33,6 +33,7 @@ searchButton.addEventListener('click', () => {
     const apiKey = '9763c2cae5394f2e8f880f45bf668f07';
     const apiUrl = `https://newsapi.org/v2/everything?q=${encodeURIComponent(subject)}&from=${startDate}&to=${endDate}&sortBy=publishedAt&apiKey=${apiKey}`;
 
+    console.log(6);
 
     //Make GET request
 
@@ -57,12 +58,12 @@ searchButton.addEventListener('click', () => {
 
 
     console.log('API URL:', apiUrl);
-    console.log(subjectInput);
-    console.log(startDateInput);
-    console.log(endDateInput);
+    
     
 });
 
 
-    
+console.log(subjectInput.value);
+console.log(startDateInput.value);
+console.log(endDateInput.value);
 
