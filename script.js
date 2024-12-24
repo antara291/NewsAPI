@@ -2,7 +2,7 @@
 
 console.log(8);
 
-/*
+
 
 // Select the form and input elements
 const subjectInput = document.getElementById('subject');
@@ -67,5 +67,4 @@ console.log(subjectInput.value);
 console.log(startDateInput.value);
 console.log(endDateInput.value);
 
-*/
 
