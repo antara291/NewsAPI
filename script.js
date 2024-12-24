@@ -1,6 +1,6 @@
 
 
-console.log(66);
+console.log(6);
 
 
 
